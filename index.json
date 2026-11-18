@@ -1,0 +1,62 @@
+{
+ "updated": "2026-11-18T15:30:00+00:00",
+ "matches": [
+  {
+   "gameId": 301991192,
+   "file": "matches/S44/R01/301991192.json",
+   "season": 44,
+   "round": 1,
+   "date": "2026-11-17T18:00:00+01:00",
+   "competition": "Kzar's Kzup",
+   "kzupEdition": 6,
+   "stage": "Quarter final",
+   "division": null,
+   "cupRound": "Quarter final",
+   "home": "Turntables United",
+   "away": "AquaDjimibia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "homePens": 3,
+   "awayPens": 0,
+   "arena": "Xpert Arena (Neutral)"
+  },
+  {
+   "gameId": 323904616,
+   "file": "matches/S44/R06/323904616.json",
+   "season": 44,
+   "round": 6,
+   "date": "2026-11-13T18:00:00+01:00",
+   "competition": "Kzar's Kzup",
+   "kzupEdition": 6,
+   "stage": "Group C",
+   "division": "Group C",
+   "cupRound": null,
+   "home": "Woké Juniors",
+   "away": "AC Salame",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "homePens": null,
+   "awayPens": null,
+   "arena": "Camp MeTou"
+  },
+  {
+   "gameId": 323904604,
+   "file": "matches/S44/R06/323904604.json",
+   "season": 44,
+   "round": 6,
+   "date": "2026-11-13T18:00:00+01:00",
+   "competition": "Kzar's Kzup",
+   "kzupEdition": 6,
+   "stage": "Group B",
+   "division": "Group B",
+   "cupRound": null,
+   "home": "Shepard United FC",
+   "away": "Turntables United",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "homePens": null,
+   "awayPens": null,
+   "arena": "Shepard Way"
+  }
+ ]
+}
