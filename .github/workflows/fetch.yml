@@ -2,7 +2,7 @@ name: Fetch X11 matches
 
 on:
   schedule:
-    - cron: "17 */3 * * *"     # every 3 hours
+    - cron: "1,15 16-18 * * 2,5"  # Tue & Fri: 12:01, 12:15, 1:01, 1:15pm Eastern (+ summer-time cover)
   workflow_dispatch:            # adds a "Run workflow" button on GitHub
     inputs:
       extra_game_ids:
