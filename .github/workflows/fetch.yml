@@ -1,0 +1,50 @@
+name: Fetch X11 matches
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"     # every 3 hours
+  workflow_dispatch:            # adds a "Run workflow" button on GitHub
+    inputs:
+      extra_game_ids:
+        description: "Optional: extra game IDs to grab, comma separated (for old matches)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-matches
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install libraries
+        run: pip install requests beautifulsoup4
+
+      - name: Fetch new matches
+        env:
+          X11_USERNAME: ${{ secrets.X11_USERNAME }}
+          X11_PASSWORD: ${{ secrets.X11_PASSWORD }}
+          GOONDESLIGA_URL: ${{ secrets.GOONDESLIGA_URL }}
+          SPOONDESLIGA_URL: ${{ secrets.SPOONDESLIGA_URL }}
+          KZUP_URL: ${{ secrets.KZUP_URL }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          EXTRA_GAME_IDS: ${{ github.event.inputs.extra_game_ids }}
+        run: python fetch_matches.py
+
+      - name: Save to the archive
+        run: |
+          git config user.name "FSG Archiver"
+          git config user.email "actions@github.com"
+          git add matches index.json
+          git diff --cached --quiet || git commit -m "Archive new matches"
+          git push
