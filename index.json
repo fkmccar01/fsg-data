@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:32:38+00:00",
+ "updated": "2026-11-20T16:49:45+00:00",
  "matches": [
   {
    "gameId": 301991195,
@@ -133,6 +133,28 @@
    "homePens": null,
    "awayPens": null,
    "arena": "Shepard Way"
+  }
+ ],
+ "upcoming": [
+  {
+   "gameId": 301991954,
+   "date": "2026-11-20 18:00",
+   "home": "Sweatfield Wednesday",
+   "away": "Turntables United",
+   "played": false,
+   "stage": "Semifinals",
+   "source": "https://xperteleven.com/standings.aspx?Lid=460905&Sel=T&Lnr=3&dh=2",
+   "competition": "Kzar's Kzup"
+  },
+  {
+   "gameId": 301991955,
+   "date": "2026-11-20 18:00",
+   "home": "Woké Juniors",
+   "away": "Olympus FC",
+   "played": false,
+   "stage": "Semifinals",
+   "source": "https://xperteleven.com/standings.aspx?Lid=460905&Sel=T&Lnr=3&dh=2",
+   "competition": "Kzar's Kzup"
   }
  ]
 }
