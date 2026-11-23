@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:35:50+00:00",
+ "updated": "2026-11-23T21:46:42+00:00",
  "matches": [
   {
    "gameId": 301991955,
@@ -173,5 +173,16 @@
    "arena": "Shepard Way"
   }
  ],
- "upcoming": []
+ "upcoming": [
+  {
+   "gameId": 301992598,
+   "date": "2026-11-24 18:00",
+   "home": "Woké Juniors",
+   "away": "Sweatfield Wednesday",
+   "played": false,
+   "stage": "Final",
+   "source": "https://xperteleven.com/standings.aspx?Lid=460905&Sel=T&Lnr=3&dh=2",
+   "competition": "Kzar's Kzup"
+  }
+ ]
 }
