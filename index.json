@@ -1,6 +1,25 @@
 {
- "updated": "2026-11-23T22:06:07+00:00",
+ "updated": "2026-11-24T17:00:32+00:00",
  "matches": [
+  {
+   "gameId": 301992598,
+   "file": "matches/S44/R03/301992598.json",
+   "season": 44,
+   "round": 3,
+   "date": "2026-11-24T18:00:00+01:00",
+   "competition": "Kzar's Kzup",
+   "kzupEdition": 6,
+   "stage": "Final",
+   "division": null,
+   "cupRound": "Final",
+   "home": "Woké Juniors",
+   "away": "Sweatfield Wednesday",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "homePens": 5,
+   "awayPens": 4,
+   "arena": "Xpert Arena (Neutral)"
+  },
   {
    "gameId": 301991955,
    "file": "matches/S44/R02/301991955.json",
@@ -173,16 +192,5 @@
    "arena": "Shepard Way"
   }
  ],
- "upcoming": [
-  {
-   "gameId": 301992598,
-   "date": "2026-11-24 18:00",
-   "home": "Woké Juniors",
-   "away": "Sweatfield Wednesday",
-   "played": false,
-   "stage": "Final",
-   "source": "https://xperteleven.com/standings.aspx?Lid=460905&Sel=T&Lnr=3&dh=2",
-   "competition": "Kzar's Kzup"
-  }
- ]
+ "upcoming": []
 }
